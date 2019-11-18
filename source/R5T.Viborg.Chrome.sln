@@ -3,11 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Viborg.Chrome.Construction", "R5T.Viborg.Chrome.Construction\R5T.Viborg.Chrome.Construction.csproj", "{56E14ACA-F6BE-4703-B8BD-EA559D2D8953}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Viborg.Chrome.Construction", "R5T.Viborg.Chrome.Construction\R5T.Viborg.Chrome.Construction.csproj", "{56E14ACA-F6BE-4703-B8BD-EA559D2D8953}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Viborg.Chrome", "R5T.Viborg.Chrome\R5T.Viborg.Chrome.csproj", "{F8C227CC-2F8B-4620-989C-40A66955B2D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Viborg.Chrome", "R5T.Viborg.Chrome\R5T.Viborg.Chrome.csproj", "{F8C227CC-2F8B-4620-989C-40A66955B2D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Viborg.Chrome.Testing", "R5T.Viborg.Chrome.Testing\R5T.Viborg.Chrome.Testing.csproj", "{906E8AAD-1D53-4632-92F8-3029B0D511DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Viborg.Chrome.Testing", "R5T.Viborg.Chrome.Testing\R5T.Viborg.Chrome.Testing.csproj", "{906E8AAD-1D53-4632-92F8-3029B0D511DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{9D0A550C-34B7-46AA-888D-B74BE96A7295}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Viborg.Base", "..\..\R5T.Viborg.Base\source\R5T.Viborg.Base\R5T.Viborg.Base.csproj", "{D7662F35-502A-4321-B386-845BC637BF3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Rhodes", "..\..\R5T.Rhodes\source\R5T.Rhodes\R5T.Rhodes.csproj", "{7058721D-ECE0-41F8-ABA4-BFE92DF6126D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Chamavia", "..\..\R5T.Chamavia\source\R5T.Chamavia\R5T.Chamavia.csproj", "{DAF39CCF-BA39-48C5-9DA5-30D89B5C6310}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +25,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{56E14ACA-F6BE-4703-B8BD-EA559D2D8953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +63,52 @@ Global
 		{906E8AAD-1D53-4632-92F8-3029B0D511DA}.Release|x64.Build.0 = Release|Any CPU
 		{906E8AAD-1D53-4632-92F8-3029B0D511DA}.Release|x86.ActiveCfg = Release|Any CPU
 		{906E8AAD-1D53-4632-92F8-3029B0D511DA}.Release|x86.Build.0 = Release|Any CPU
+		{D7662F35-502A-4321-B386-845BC637BF3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7662F35-502A-4321-B386-845BC637BF3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7662F35-502A-4321-B386-845BC637BF3A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D7662F35-502A-4321-B386-845BC637BF3A}.Debug|x64.Build.0 = Debug|Any CPU
+		{D7662F35-502A-4321-B386-845BC637BF3A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D7662F35-502A-4321-B386-845BC637BF3A}.Debug|x86.Build.0 = Debug|Any CPU
+		{D7662F35-502A-4321-B386-845BC637BF3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7662F35-502A-4321-B386-845BC637BF3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7662F35-502A-4321-B386-845BC637BF3A}.Release|x64.ActiveCfg = Release|Any CPU
+		{D7662F35-502A-4321-B386-845BC637BF3A}.Release|x64.Build.0 = Release|Any CPU
+		{D7662F35-502A-4321-B386-845BC637BF3A}.Release|x86.ActiveCfg = Release|Any CPU
+		{D7662F35-502A-4321-B386-845BC637BF3A}.Release|x86.Build.0 = Release|Any CPU
+		{7058721D-ECE0-41F8-ABA4-BFE92DF6126D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7058721D-ECE0-41F8-ABA4-BFE92DF6126D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7058721D-ECE0-41F8-ABA4-BFE92DF6126D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7058721D-ECE0-41F8-ABA4-BFE92DF6126D}.Debug|x64.Build.0 = Debug|Any CPU
+		{7058721D-ECE0-41F8-ABA4-BFE92DF6126D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7058721D-ECE0-41F8-ABA4-BFE92DF6126D}.Debug|x86.Build.0 = Debug|Any CPU
+		{7058721D-ECE0-41F8-ABA4-BFE92DF6126D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7058721D-ECE0-41F8-ABA4-BFE92DF6126D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7058721D-ECE0-41F8-ABA4-BFE92DF6126D}.Release|x64.ActiveCfg = Release|Any CPU
+		{7058721D-ECE0-41F8-ABA4-BFE92DF6126D}.Release|x64.Build.0 = Release|Any CPU
+		{7058721D-ECE0-41F8-ABA4-BFE92DF6126D}.Release|x86.ActiveCfg = Release|Any CPU
+		{7058721D-ECE0-41F8-ABA4-BFE92DF6126D}.Release|x86.Build.0 = Release|Any CPU
+		{DAF39CCF-BA39-48C5-9DA5-30D89B5C6310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF39CCF-BA39-48C5-9DA5-30D89B5C6310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF39CCF-BA39-48C5-9DA5-30D89B5C6310}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DAF39CCF-BA39-48C5-9DA5-30D89B5C6310}.Debug|x64.Build.0 = Debug|Any CPU
+		{DAF39CCF-BA39-48C5-9DA5-30D89B5C6310}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DAF39CCF-BA39-48C5-9DA5-30D89B5C6310}.Debug|x86.Build.0 = Debug|Any CPU
+		{DAF39CCF-BA39-48C5-9DA5-30D89B5C6310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF39CCF-BA39-48C5-9DA5-30D89B5C6310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAF39CCF-BA39-48C5-9DA5-30D89B5C6310}.Release|x64.ActiveCfg = Release|Any CPU
+		{DAF39CCF-BA39-48C5-9DA5-30D89B5C6310}.Release|x64.Build.0 = Release|Any CPU
+		{DAF39CCF-BA39-48C5-9DA5-30D89B5C6310}.Release|x86.ActiveCfg = Release|Any CPU
+		{DAF39CCF-BA39-48C5-9DA5-30D89B5C6310}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D7662F35-502A-4321-B386-845BC637BF3A} = {9D0A550C-34B7-46AA-888D-B74BE96A7295}
+		{7058721D-ECE0-41F8-ABA4-BFE92DF6126D} = {9D0A550C-34B7-46AA-888D-B74BE96A7295}
+		{DAF39CCF-BA39-48C5-9DA5-30D89B5C6310} = {9D0A550C-34B7-46AA-888D-B74BE96A7295}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8FBC1AD-409B-4857-AD91-F78B04BD42F3}
 	EndGlobalSection
 EndGlobal
